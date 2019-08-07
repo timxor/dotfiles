@@ -1,0 +1,15 @@
+# view process running on port
+
+# ping specific host:port
+
+nc -vz 0.0.0.0 9999
+
+# or
+
+nmap -p 11111 54.176.210.14
+
+
+# kill process on specific ports
+lsof -i tcp:27182 && lsof -i tcp:11111
+kill -9 8525
+lsof -i tcp:27182 && lsof -i tcp:11111
