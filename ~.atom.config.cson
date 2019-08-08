@@ -1,0 +1,17 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "atom-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    fontSize: 27
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "f65b3bfa-e22e-4318-a76d-057ed8db64c2"
+  welcome:
+    showOnStartup: false
+  autosave:
+    enabled: true
