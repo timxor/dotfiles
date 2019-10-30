@@ -1,0 +1,12 @@
+
+# create config file
+touch ~/.gitignore
+
+# link config file on mac
+git config --global core.excludesfile ~/.gitignore
+
+
+# add alias for quick editing
+alias addgit="atom ~/.gitignore"
+
+
