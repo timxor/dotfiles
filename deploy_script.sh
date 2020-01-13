@@ -1,4 +1,6 @@
 #!bin/bash
+
+# cp deploy_script.sh /usr/local/bin/
 # alias deploy="bash /usr/local/bin/deploy_script.sh"
 # chmod +x /usr/local/bin/deploy_script.sh
 # bash /usr/local/bin/deploy_script.sh
