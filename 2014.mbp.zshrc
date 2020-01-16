@@ -1,43 +1,49 @@
-# Author: Tim Siwula
+# Author: Tim Siwula @timxor
+# File: ~/.zshrc
 # Date: 11/05/2019
-# File: ~/.bash_profile
-# Computer: macbook pro 2014
+# Computer: 2014 MacBook Pro
 #
 # related files:
 #     1. $ZDOTDIR/.zprofile
 #     2. $ZDOTDIR/.zshenv
 #     3. $ZDOTDIR/.zlogin
 #     4. $ZDOTDIR/.zlogout
-#     5. ~/.profile
 #
 
-alias addcommand="atom ~/.bash_profile"
-alias addcc="atom ~/.zshrc"
+# source ~/.zshrc
 
-alias addc="addcommand"
-alias updatecommand="source ~/.bash_profile && source ~/.zshrc"
-alias uc="updatecommand"
+# ruby / bundle
+export PATH="$PATH:/usr/bin:/usr/local/bin/"
 
+alias py="cd /Users/tim.siwula/dev/python && clear && pwd && ls -la"
 
+alias upfollow="cd /Users/tim.siwula/dev/upfollow && clear && pwd"
 
+alias golang="cd /Users/tim.siwula/dev/stack/go && pwd"
+
+alias stack="cd /Users/tim.siwula/dev/stack"
+
+alias tim="cd /Users/tim.siwula/dev/tim"
+alias website="cd /Users/tim.siwula/dev/tim/fluffypomeranian.github.io"
+alias resume="cd /Users/tim.siwula/dev/tim/resume && clear && pwd && ls -la"
 
 
 alias bu="brew update && brew upgrade && brew cleanup"
 alias dev="cd /Users/tim.siwula/dev && clear && pwd && ls -la"
 alias dotfiles="cd /Users/tim.siwula/dev/dotfiles && clear && pwd && ls -la"
 
-alias resume="cd /Users/tim.siwula/dev/tim/resume && clear && pwd && ls -la"
 alias compile_r="pdflatex resume-timothy-siwula.tex"
+alias delete_r="rm ~/Desktop/resume-timothy-siwula.pdf"
 alias move_r="cp resume-timothy-siwula.pdf ~/Desktop/"
 alias open_r="open ~/Desktop/resume-timothy-siwula.pdf"
-alias compile_resume="resume && compile_r && move_r && open_r"
+alias compile_resume="resume && compile_r && delete_r && move_r && open_r"
 
 
 alias pycharm="open /Applications/PyCharm\ CE.app"
 alias pc="open /Applications/PyCharm\ CE.app"
 alias prob="cd /Users/tim.siwula/dev/problems && pwd && ls -la"
 alias emoji="cd /Users/tim.siwula/dev/emoji && pwd && ls"
-alias problems="cd /Users/tim.siwula/dev/problems/ && pwd && ls"
+alias problems="cd /Users/tim.siwula/dev/interviews/problems/ && pwd && ls"
 alias deploy="bash deploy_script.sh"
 
 # 'sp': show permissions of a file
@@ -67,6 +73,15 @@ export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 
 # alias shortcut keys
 alias a="atom"
+alias addcommand="atom ~/.bash_profile"
+alias addcc="atom ~/.zshrc"
+
+alias addc="addcommand"
+alias updatecommand="source ~/.bash_profile && source ~/.zshrc"
+alias uc="updatecommand"
+alias ucc="source ~/.zshrc"
+
+
 alias o="open ."
 alias c="clear"
 alias C="clear"
@@ -228,5 +243,10 @@ export PATH="/usr/local/sbin:$PATH"
 
 # open vpn
 export PATH=$(brew --prefix openvpn)/sbin:$PATH
+export PATH="/usr/local/opt/ruby/bin:$PATH"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+source ~/.bash_profile
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
