@@ -1,7 +1,7 @@
 #-----------------------------------------------------------------------------
-# Tim Siwula -- github@timsiwula.com
+# Tim Siwula -- @timxor
 # file: ~/.zshrc
-# computer: 2017-imac
+# computer: 2018 MacBook Air
 # github: https://github.com/tcsiwula/bash_code/blob/master/config_files/.bash_profile
 # updated: 10/24/2018
 #-----------------------------------------------------------------------------

@@ -1,9 +1,9 @@
 #-----------------------------------------------------------------------------
-# Tim Siwula -- github@timsiwula.com
+# Tim Siwula -- @timxor
 # file: ~/.zshrc
-# computer: 2017-imac
+# computer: 2017 iMac
 # github: https://github.com/tcsiwula/bash_code/blob/master/config_files/.bash_profile
-# updated: 10/24/2018
+# updated: 01/15/2020
 #-----------------------------------------------------------------------------
 # file path:  ~/.zshrc
 # edit: atom ~/.zshrc
@@ -25,8 +25,6 @@ alias deploy="bash /usr/local/bin/deploy_script.sh"
 # visual studio code editor cli
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
-# pyenv shell
-eval "$(pyenv init -)"
 
 
 # custom colors
@@ -44,7 +42,7 @@ alias projects="cd /Users/tim.siwula/code && clear && ls -la"
 #alias bash_code="cd $HOME/Dropbox/Projects/bash_code && pwd"
 # alias nc="cd /Users/tim.siwula/Desktop/pier && pwd && git branch"
 alias a="atom"
-#alias commit="cd /Users/tim.siwula/Dropbox/Projects/commit-react-native && pwd"
+#alias commit="cd /Users/tim.tim/Dropbox/Projects/commit-react-native && pwd"
 alias addcommand="code ~/.zshrc"
 alias addc="addcommand"
 alias updatecommand="clear && source ~/.zshrc"
@@ -70,7 +68,6 @@ alias addg="code ~/.gitignore_global"
 #                 terminal command prompt icon
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-# basic cli
 
 
 
@@ -78,37 +75,7 @@ alias addg="code ~/.gitignore_global"
 LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS
 
 # directory path + emoji command prompt
-export PS1="timbo@%d:🥺⌗ "
-
-#export PS1="happy_imac ->"
-#PS1='\W\$ '
-#PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] [\w]\[\033[00m\]'
-
-# broken againter
-#export PS1="\[\033[01;32m\]\[\033[01;34m\][\w]\[\033[00m\]$"
-
-# broken one
-#export PS1='happy_imac/\[\033[01;32m\]\u[\w]\[\033[00m\]'
-
-#
-#export PS1='happy_mbp/\[\033[01;32m\]\[\033[00m\]'
-
-
-
-
-
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-#                 python3 / pip3 / virtualenv
-# https://github.com/donnemartin/dev-setup/issues/80#issuecomment-431379721
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# if [ -f ~/.local/bin/virtualenvwrapper.sh ] ; then
-# export WORKON_HOME=~/.virtualenvs
-# export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-# export VIRTUALENVWRAPPER_VIRTUALENV=~ /.local/bin/virtualenv
-# source ~/.local/bin/virtualenvwrapper.sh
-# fi
-# export PATH="$PATH:/usr/sbin"
-
+export PS1="timbo@%d:🐸⌗ "
 
 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -294,10 +261,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 
 
 
-# virtualenv and virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-source /usr/local/bin/virtualenvwrapper.sh
+
 
 # Setting PATH for Python 3.6
 # The original version is saved in .zprofile.pysave
