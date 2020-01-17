@@ -1,16 +1,51 @@
-# Author: Tim Siwula @timxor
-# File: ~/.zshrc
-# Date: 11/05/2019
-# Computer: 2014 MacBook Pro
-#
+#-----------------------------------------------------------------------------
+# Tim Siwula -- @timxor
+# file: ~/.zshrc
+# computer: 2014 MacBook Pro 2014
+# github: https://github.com/tcsiwula/bash_code/blob/master/config_files/.bash_profile
+# updated: 01/15/2020
+#-----------------------------------------------------------------------------
+# file path:  ~/.zshrc
+# edit: atom ~/.zshrc
+# update: source ~/.zshrc
+#-----------------------------------------------------------------------------
+# shortcuts: addcc = addcommand == atom ~/.zshrc
+# shortcuts: ucc = updatecommand == source ~/.zshrc
+#-----------------------------------------------------------------------------
 # related files:
 #     1. $ZDOTDIR/.zprofile
 #     2. $ZDOTDIR/.zshenv
 #     3. $ZDOTDIR/.zlogin
 #     4. $ZDOTDIR/.zlogout
-#
+#-----------------------------------------------------------------------------
 
-# source ~/.zshrc
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#                 GREETING
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+echo "#|----------------------------------------------------------------------------|"
+echo "#|                       What's up Tim?    ^_^   =]    :)                     |"
+echo "#|----------------------------------------------------------------------------|"
+echo "#|                       remote servers:                                      |"
+echo "#|----------------------------------------------------------------------------|"
+echo "#|                       ssh my_server  ==>  [todo: set up a google server]   |"
+echo "#|----------------------------------------------------------------------------|"
+
+# custom colors
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFhla'
+alias l='less'
+
+# different colors for directory/file
+LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS
+
+# directory path + emoji command prompt
+export PS1="timbo@%d:🐸:"
+
+alias addcommand="code ~/.zshrc"
+alias addc="addcommand"
+alias updatecommand="clear && source ~/.zshrc"
+
 
 # ruby / bundle
 export PATH="$PATH:/usr/bin:/usr/local/bin/"
@@ -150,7 +185,7 @@ export PATH="/usr/local/bin:${PATH}"
 #-----------------------------------------------------------------------------
 # terminal command prompt icon
 #-----------------------------------------------------------------------------
-export PS1="=>"
+# export PS1="=>"
 #-----------------------------------------------------------------------------
 
 
