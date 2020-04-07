@@ -7,10 +7,8 @@
 
 brew install git-lfs
 git lfs install
-
 git lfs track "*.jar"
-
-
 git add .gitattributes
-
-
+git add file.jar
+git commit -m "Add jar file"
+git push
