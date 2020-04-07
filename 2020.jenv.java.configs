@@ -1,0 +1,30 @@
+# file:     2020.jenv.java.configs
+
+# /Users/tim/.jenv
+# /Users/tim/.jenv/versions
+
+
+# see java versions
+jenv versions
+
+# add other java versions
+ls -la /Library/Java/JavaVirtualMachines/
+jenv add jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/
+
+
+
+jenv global 1.8.0.242
+
+
+jenv commands
+
+
+cd <my project>
+jenv local oracle64-1.8.0.66
+
+
+
+
+ls -la /usr/libexec/java_home
+# /usr/libexec/java_home
+# -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/java_home
