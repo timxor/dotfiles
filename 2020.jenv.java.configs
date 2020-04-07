@@ -27,4 +27,18 @@ jenv local oracle64-1.8.0.66
 
 ls -la /usr/libexec/java_home
 # /usr/libexec/java_home
-# -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/java_home
+# ->
+
+
+brew cask info java
+java -version
+
+
+
+
+
+# install scala on mac
+brew install scala
+brew install sbt
+scala -version
+sbt
