@@ -17,8 +17,47 @@ echo ""
 echo "installing macvim "
 echo ""
 
-#brew install vim
+
+
+brew doctor
+
+
+# psql / postgresql
+brew install libpq
+brew link --force libpq
+
+
+# latex - pdflatex
+brew cask install mactex
+
+
+# scala
+brew install scala
+
+
+# mac vim
 brew install macvim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 source ~/.bash_profile
 source ~/.zshrc
