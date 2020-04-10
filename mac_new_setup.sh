@@ -61,6 +61,42 @@ pip install numpy
 brew install qt5
 conda install matplotlib
 
+
+conda update anaconda-navigator
+
+conda update navigator-updater
+
+conda install opencv
+
+sudo pip3 install opencv-python
+sudo pip install opencv-python
+
+
+cd ~/opencv
+
+mkdir build
+cd build
+
+cmake ..
+# env CC=cc CXX=CC ./bootstrap
+make
+sudo make install
+
+# library now in /usr/local/lib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 cd opencv
 mkdir build
 cd build
