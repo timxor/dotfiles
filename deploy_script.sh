@@ -1,6 +1,6 @@
 #!bin/bash
 #
-# file:           deploy_script.sh
+# file:           /usr/local/bin/deploy_script.sh
 # date:           04/07/2020
 # author:         tim siwula <tim@acceptance.ai>
 #
@@ -14,7 +14,13 @@
 #      - deploy
 #
 
-echo ".\n ..\n   running deploy script\n   ..\n  ."
+
+echo ""
+echo "running:   /usr/local/bin/deploy_script.sh"
+echo ""
+
+
+
 git status
 git pull
 git add .
@@ -22,4 +28,9 @@ git status
 git commit -m ":smile: tim_bot :smile: via tim's deploy_script.sh"
 git push
 git status
-echo "<----- done <----"
+
+
+
+echo ""
+echo "done!"
+echo ""
