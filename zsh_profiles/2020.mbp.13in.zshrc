@@ -1,3 +1,18 @@
+#
+#  file:           .zshrc
+#  date:           09/05/2020
+#  author:         tim siwula <tim@acceptance.ai>
+#
+#  path:           /Users/client/Desktop/acceptance.ai/deploy/
+#  host:           MacBook Pro (13-inch, 2020)
+#  OS:             macOS Catalina - Version 10.15.6
+#
+
+alias resume"cd /Users/client/Documents/GitHub/timbo/resume"
+alias tim="cd /Users/client/Documents/GitHub/timbo && clear && pwd && ls -la"
+alias deploy="bash /usr/local/bin/deploy_script.sh"
+alias dotfiles="cd /Users/client/Documents/GitHub/dotfiles && clear && pwd"
+alias deploy-heroku="bash /Users/client/Desktop/acceptance.ai/deploy/deploy_to_heroku.sh"
 alias satcom="cd /Users/client/Documents/GitHub/satcom/ && clear && pwd && ls -la"
 alias addc="atom ~/.zshrc"
 alias uc="source ~/.zshrc && clear"
