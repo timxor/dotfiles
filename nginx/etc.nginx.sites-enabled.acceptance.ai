@@ -1,3 +1,7 @@
+# file: /etc/nginx/sites-enabled/accepance.ai
+# links to file: /etc/nginx/sites-available/acceptance.ai
+# default links to: /etc/nginx/sites-available/default
+
 server {
      listen 80;
      listen [::]:80;
@@ -6,6 +10,7 @@ server {
      return 301 $scheme://www.acceptance.ai$request_uri;
 }
 server {
+    listen 443 ssl;
      listen [::]:80 default;
      listen [::]:443 default;
      root /var/www/acceptance.ai/html;
