@@ -1,0 +1,11 @@
+#  file:  ~/.gitignore_global
+#
+
+
+# defaults to ignore
+
+*.class
+*.idea/
+build/
+.DS_Store
+*.DS_Store
