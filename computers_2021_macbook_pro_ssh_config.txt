@@ -1,0 +1,6 @@
+Host server1
+  HostName 3.228.135.130
+  User butters
+  PubKeyAuthentication yes
+  IdentityFile ~/.ssh/comacceptanceaidebianserver.pem 
+
