@@ -19,7 +19,9 @@ alias deploy="bash deploy_script.sh"
 #  global git ignore file:
 #    ~/.gitignore_global
 alias addgit="atom ~/.gitignore_global"
-
+#  ssh config files:
+#    ~/.ssh/config
+alias addssh="atom ~/.ssh/config"
 
 
 
@@ -103,75 +105,4 @@ source ~/.bash_profile
 
 # rabbit mq server
 export PATH=$PATH:/usr/local/sbin
-
-
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
-export GPG_TTY=$(tty)
 
