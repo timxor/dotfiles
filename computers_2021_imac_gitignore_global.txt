@@ -1,0 +1,10 @@
+#  file:  ~/.gitignore_global
+
+# macos defaults to ignore
+
+*.class
+*.idea/
+*.iml
+build/
+.DS_Store
+*.DS_Store
