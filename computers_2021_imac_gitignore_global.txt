@@ -1,0 +1,15 @@
+#
+#  file:  ~/.gitignore_global
+#
+#  init:  touch ~/.gitignore
+#         git config --global core.excludesfile ~/.gitignore
+#
+
+# macos defaults to ignore
+
+*.class
+*.idea/
+*.iml
+build/
+.DS_Store
+*.DS_Store
