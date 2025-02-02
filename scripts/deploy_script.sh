@@ -1,8 +1,8 @@
-#!bin/bash
+#!/bin/bash
 #
 # file:           /usr/local/bin/deploy_script.sh
-# date:           04/07/2020
-# author:         tim siwula <tim@acceptance.ai>
+# date:           02/01/2025
+# author:         Tim Siwula <siwulactim@gmail.com>
 #
 # mac os setup:
 #
