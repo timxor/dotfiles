@@ -1,0 +1,20 @@
+[user]
+	name = Tim Siwula
+	email = siwulactim@gmail.com
+[core]
+	excludesfile = /Users/timbo/.gitignore_global
+
+# Enforce SSH and not https
+ [url "git@github.com:"]
+     insteadOf = https://github.com/
+ [url "git@gitlab.com:"]
+     insteadOf = https://gitlab.com/
+ [url "git@bitbucket.org:"]
+     insteadOf = https://bitbucket.org/
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[pull]
+	rebase = false

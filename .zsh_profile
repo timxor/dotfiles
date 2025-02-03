@@ -1,0 +1,28 @@
+export PATH=~/.npm-global/bin:$PATH
+
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+
+
+export PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
+alias python="python3"
+alias pip="pip3"
+
+alias deploy="bash deploy_script.sh"
+
+
+alias addcommand="atom ~/.zshrc"
+alias addc="addcommand"
+alias updatecommand="source ~/.zshrc"
+alias uc="updatecommand"
+alias o="open ."
+alias c="clear"
+alias C="clear"
+alias h="history"
+
+
+export PATH="$HOME/.docker/bin:$PATH"
+
+
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
