@@ -31,7 +31,7 @@ alias lc="leetcode"
 
 
 # confluence api key
-export CONFLUENCE_API_TOKEN="ATATT3xFfGF0P1yh-d4n4dExXImx9GoTBk5azzjucSOmJnfLV5aRrT6Fnjoaehs3pYCoiJVU7qvAu04k9HE-1suWAv1n4rncMTPveLHDpVhkK06cnQ4EohkzbnpgScAM4nnR7xcZslAeFgE5ojsmco2yNRa6kamH313En0RxbXFTQ8qDNB_Ar1c=612D1F3E"
+# export CONFLUENCE_API
 
 # go lang
 set GOROOT=/usr/local/go/bin/go
