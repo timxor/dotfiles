@@ -16,6 +16,8 @@ alias dk="cd /Users/tim/Desktop && clear && pwd"
 alias dl="cd /Users/tim/Downloads && clear && pwd"
 alias code="cd /Users/tim/code && clear && pwd"
 alias deploy="bash deploy_script.sh"
+
+
 #  global git ignore file:
 #    ~/.gitignore_global
 alias addgit="atom ~/.gitignore_global"
