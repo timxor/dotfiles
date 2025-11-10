@@ -1,0 +1,24 @@
+# Added by OrbStack: 'orb' SSH host for Linux machines
+# This only works if it's at the top of ssh_config (before any Host blocks).
+# This won't be added again if you remove it.
+Include ~/.orbstack/ssh/config
+
+# ~/.ssh/config
+
+
+Host aws
+  HostName 3.12.98.133
+  User tim
+  IdentityFile ~/.ssh/ec2_spot_instance_t4g_medium_ubuntu_24_lts_64_arm.pem
+
+Host *.github.com
+  IgnoreUnknown AddKeysToAgent,UseKeychain
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa.pub
+
+Host *
+  TCPKeepAlive yes
+  ServerAliveInterval 120
+  PubKeyAuthentication yes
+
+

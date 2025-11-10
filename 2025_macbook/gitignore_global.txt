@@ -1,0 +1,111 @@
+# Author:             Tim Siwula <siwulactim@gmail.com>
+# File:               ~/.gitignore_global
+# Date:               Sat May 3 2025
+
+
+### check if exists
+# cat ~/.gitignore_global
+
+
+### create if not exists
+# touch ~/.gitignore_global
+
+
+### edit or update global gitignore:
+# nano ~/.gitignore_global
+
+
+### turn on global setting
+# git config --global core.excludesfile ~/.gitignore_global
+
+
+### verify it is set up: 
+# git config --global core.excludesfile
+
+
+
+# IDE's #
+###################
+*.iml
+*.idea
+*.vscode
+*.idea
+*.zed
+
+
+# JetBrains project files
+.idea/
+*.iml
+.idea/workspace.xml
+*.idea/
+*workspace.xml
+
+
+
+
+
+# OS cruft
+.DS_Store
+
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+
+# Java-specific (optional, for IntelliJ/Java projects)
+target/
+out/
+*.class
+
+
+
+
+
+# Swift Package Manager #
+###################
+.swiftpm/
+
+
+# Compiled source #
+###################
+
+/out
+out/
+
+.class
+.dll
+.exe
+.o
+.so
+
+
+# Packages #
+###################
+.7z
+.dmg
+.gz
+.iso
+.jar
+.rar
+.tar
+.zip
+
+
+# Logs and databases #
+######################
+.log
+.sql
+.sqlite
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
