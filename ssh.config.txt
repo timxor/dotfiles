@@ -1,0 +1,21 @@
+# File:    ~/.ssh/config
+
+# Specific host: AWS EC2 instance
+Host aws
+  HostName 3.12.98.133
+  User tim
+  IdentityFile ~/.ssh/ec2_spot_instance_t4g_medium_ubuntu_24_lts_64_arm.pem
+
+# GitHub-specific: covers github.com, api.github.com etc. via *.github.com wildcard
+Host *.github.com
+  IgnoreUnknown AddKeysToAgent,UseKeychain
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+  IdentitiesOnly yes
+
+# Global defaults for all hosts
+Host *
+  TCPKeepAlive yes
+  ServerAliveInterval 120
+  PubKeyAuthentication yes
