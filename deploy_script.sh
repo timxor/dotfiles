@@ -7,11 +7,11 @@
 #
 #  mac os setup:
 #
-#      - cp deploy_script.sh /usr/local/bin/
+#      - sudo cp deploy_script.sh /usr/local/bin/
+#      - sudo chmod +x /usr/local/bin/deploy_script.sh
 #      - nano ~/.zshrc
 #      - add this: alias deploy="bash /usr/local/bin/deploy_script.sh"
 #      - source ~/.zshrc
-#      - chmod +x /usr/local/bin/deploy_script.sh
 #      - deploy
 #
 #
@@ -24,4 +24,3 @@ git commit -m "sync: updating local state via deploy_script.sh"
 git push
 git status
 printf "\n done! \n"
-
