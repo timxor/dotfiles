@@ -1,0 +1,19 @@
+name: learn-github-actions
+on: [push]
+jobs:
+  checks-bat-version:
+    runs-on: macos-26
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install bats
+        run: npm install -g bats
+
+      - name: Check bats version
+        run: bats -v
