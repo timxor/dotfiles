@@ -1,0 +1,83 @@
+// Zed settings -- location at: ~/.config/zed/settings.json
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "agent": {
+    "sidebar_side": "right",
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "status_bar": {
+    "active_language_button": false
+  },
+  "terminal": {
+    "button": false
+  },
+  "show_edit_predictions": false,
+  "show_completions_on_input": false,
+  "edit_predictions": {
+    "copilot": {
+      "enable_next_edit_suggestions": false
+    },
+    "mode": "subtle",
+    "provider": "none"
+  },
+  "git": {
+    "git_gutter": "hide",
+    "inline_blame": {
+      "enabled": false
+    },
+    "blame": {
+      "show_avatar": false
+    },
+    "show_stage_restore_buttons": false
+  },
+  "git_panel": {
+    "button": false,
+    "diff_stats": false
+  },
+  "word_diff_enabled": false,
+  "scrollbar": {
+    "git_diff": false
+  },
+  "diff_view_style": "unified",
+  "diagnostics": {
+    "button": false
+  },
+  "debugger": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry"
+    },
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+  "cli_default_open_behavior": "existing_window",
+  "project_panel": {
+    "dock": "left"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+}
+
